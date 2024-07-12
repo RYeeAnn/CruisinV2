@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CruisinV2.Data;
-using CrusinV2.Models;
+using CruisinV2.Models;
 using Microsoft.AspNetCore.Authorization;
 
 namespace CruisinV2.Controllers

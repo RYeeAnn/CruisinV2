@@ -20,7 +20,7 @@ namespace CruisinV2.Data.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.7");
 
-            modelBuilder.Entity("CrusinV2.Models.Maintenance", b =>
+            modelBuilder.Entity("CruisinV2.Models.Maintenance", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

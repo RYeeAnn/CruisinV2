@@ -1,6 +1,6 @@
 using System;
 
-namespace CrusinV2.Models
+namespace CruisinV2.Models
 {
     public class Maintenance
     {
