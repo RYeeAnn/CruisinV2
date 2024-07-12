@@ -1,0 +1,47 @@
+@model IEnumerable<CrusinV2.Models.Maintenance>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="d-flex justify-content-between align-items-center">
+    <h1 class="mb-0">Index</h1>
+    <form asp-action="ShowSearchResults" class="d-flex search-bar-button">
+        <div class="form-group mb-0 mr-2">
+            <input name="SearchPhrase" class="form-control" placeholder="Search" />
+        </div>
+        <div class="form-group mb-0">
+            <input type="submit" value="Search" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MaintenanceQuestion)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaintenanceQuestion)
+            </td>
+
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

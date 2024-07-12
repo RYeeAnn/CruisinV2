@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/CruisinV2.props" />
+</Project>
