@@ -22,6 +22,10 @@ body {
   background-color: #eee;
 }
 
+header {
+  background-color: #0d66c6;
+}
+
 .search-bar-button {
   gap: 1rem;
 }
@@ -50,4 +54,8 @@ body {
 
 .btn {
   margin-bottom: 1rem;
+}
+
+.navbar-nav {
+  align-items: center;
 }
