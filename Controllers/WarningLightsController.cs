@@ -6,7 +6,7 @@ namespace CruisinV2.Controllers
 {
     public class WarningLightsController : Controller
     {
-        // Example collection of warning lights (replace with your actual data)
+        // Collection of warning lights
         private List<WarningLights> GetWarningLights()
         {
             return new List<WarningLights>

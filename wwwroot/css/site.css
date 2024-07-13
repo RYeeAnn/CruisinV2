@@ -35,3 +35,19 @@ body {
   margin: 0 auto;
   border: 2px solid #fff;
 }
+
+.card {
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.btn {
+  margin-bottom: 1rem;
+}
