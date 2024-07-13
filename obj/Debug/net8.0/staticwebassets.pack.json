@@ -5,6 +5,78 @@
       "PackagePath": "staticwebassets/CruisinV2.bundle.scp.css"
     },
     {
+      "Id": "/Users/ryeean/Projects/CruisinV2/wwwroot/assets/ABS-light.png",
+      "PackagePath": "staticwebassets/assets/ABS-light.png"
+    },
+    {
+      "Id": "/Users/ryeean/Projects/CruisinV2/wwwroot/assets/airbag-indicator.png",
+      "PackagePath": "staticwebassets/assets/airbag-indicator.png"
+    },
+    {
+      "Id": "/Users/ryeean/Projects/CruisinV2/wwwroot/assets/battery-alert.png",
+      "PackagePath": "staticwebassets/assets/battery-alert.png"
+    },
+    {
+      "Id": "/Users/ryeean/Projects/CruisinV2/wwwroot/assets/brake-warning.png",
+      "PackagePath": "staticwebassets/assets/brake-warning.png"
+    },
+    {
+      "Id": "/Users/ryeean/Projects/CruisinV2/wwwroot/assets/check-engine-light.png",
+      "PackagePath": "staticwebassets/assets/check-engine-light.png"
+    },
+    {
+      "Id": "/Users/ryeean/Projects/CruisinV2/wwwroot/assets/engine-temperature.png",
+      "PackagePath": "staticwebassets/assets/engine-temperature.png"
+    },
+    {
+      "Id": "/Users/ryeean/Projects/CruisinV2/wwwroot/assets/fog-lamp.png",
+      "PackagePath": "staticwebassets/assets/fog-lamp.png"
+    },
+    {
+      "Id": "/Users/ryeean/Projects/CruisinV2/wwwroot/assets/lane-departure.png",
+      "PackagePath": "staticwebassets/assets/lane-departure.png"
+    },
+    {
+      "Id": "/Users/ryeean/Projects/CruisinV2/wwwroot/assets/low-fuel.png",
+      "PackagePath": "staticwebassets/assets/low-fuel.png"
+    },
+    {
+      "Id": "/Users/ryeean/Projects/CruisinV2/wwwroot/assets/oil-pressure-light.png",
+      "PackagePath": "staticwebassets/assets/oil-pressure-light.png"
+    },
+    {
+      "Id": "/Users/ryeean/Projects/CruisinV2/wwwroot/assets/seat-belt.png",
+      "PackagePath": "staticwebassets/assets/seat-belt.png"
+    },
+    {
+      "Id": "/Users/ryeean/Projects/CruisinV2/wwwroot/assets/security-indicator.png",
+      "PackagePath": "staticwebassets/assets/security-indicator.png"
+    },
+    {
+      "Id": "/Users/ryeean/Projects/CruisinV2/wwwroot/assets/shift-lock.png",
+      "PackagePath": "staticwebassets/assets/shift-lock.png"
+    },
+    {
+      "Id": "/Users/ryeean/Projects/CruisinV2/wwwroot/assets/tire-pressure-light.png",
+      "PackagePath": "staticwebassets/assets/tire-pressure-light.png"
+    },
+    {
+      "Id": "/Users/ryeean/Projects/CruisinV2/wwwroot/assets/traction-control-malfunction.png",
+      "PackagePath": "staticwebassets/assets/traction-control-malfunction.png"
+    },
+    {
+      "Id": "/Users/ryeean/Projects/CruisinV2/wwwroot/assets/traction-control.png",
+      "PackagePath": "staticwebassets/assets/traction-control.png"
+    },
+    {
+      "Id": "/Users/ryeean/Projects/CruisinV2/wwwroot/assets/transmission-temperature.png",
+      "PackagePath": "staticwebassets/assets/transmission-temperature.png"
+    },
+    {
+      "Id": "/Users/ryeean/Projects/CruisinV2/wwwroot/assets/washer-fluid.png",
+      "PackagePath": "staticwebassets/assets/washer-fluid.png"
+    },
+    {
       "Id": "/Users/ryeean/Projects/CruisinV2/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

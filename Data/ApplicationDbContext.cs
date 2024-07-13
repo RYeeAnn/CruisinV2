@@ -12,4 +12,5 @@ public class ApplicationDbContext : IdentityDbContext
     }
 
 public DbSet<CruisinV2.Models.Maintenance> Maintenance { get; set; } = default!;
+
 }

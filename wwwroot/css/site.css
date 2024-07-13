@@ -25,3 +25,13 @@ body {
 .search-bar-button {
   gap: 1rem;
 }
+
+.card-img-top {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #fff;
+}
