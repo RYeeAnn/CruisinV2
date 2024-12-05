@@ -17,79 +17,79 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CruisinV2
 build_property.RootNamespace = CruisinV2
-build_property.ProjectDir = /Users/ryeean/Projects/CruisinV2/
+build_property.ProjectDir = /Users/ryeean/Projects/CruisinV2/CruisinV2/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/ryeean/Projects/CruisinV2
+build_property.MSBuildProjectDirectory = /Users/ryeean/Projects/CruisinV2/CruisinV2
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/ryeean/Projects/CruisinV2/Areas/Identity/Pages/_ViewStart.cshtml]
+[/Users/ryeean/Projects/CruisinV2/CruisinV2/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ryeean/Projects/CruisinV2/Views/Home/Index.cshtml]
+[/Users/ryeean/Projects/CruisinV2/CruisinV2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ryeean/Projects/CruisinV2/Views/Home/Privacy.cshtml]
+[/Users/ryeean/Projects/CruisinV2/CruisinV2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ryeean/Projects/CruisinV2/Views/Maintenance/Create.cshtml]
+[/Users/ryeean/Projects/CruisinV2/CruisinV2/Views/Maintenance/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbnRlbmFuY2UvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ryeean/Projects/CruisinV2/Views/Maintenance/Delete.cshtml]
+[/Users/ryeean/Projects/CruisinV2/CruisinV2/Views/Maintenance/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbnRlbmFuY2UvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ryeean/Projects/CruisinV2/Views/Maintenance/Details.cshtml]
+[/Users/ryeean/Projects/CruisinV2/CruisinV2/Views/Maintenance/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbnRlbmFuY2UvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ryeean/Projects/CruisinV2/Views/Maintenance/Edit.cshtml]
+[/Users/ryeean/Projects/CruisinV2/CruisinV2/Views/Maintenance/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbnRlbmFuY2UvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ryeean/Projects/CruisinV2/Views/Maintenance/Index.cshtml]
+[/Users/ryeean/Projects/CruisinV2/CruisinV2/Views/Maintenance/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbnRlbmFuY2UvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ryeean/Projects/CruisinV2/Views/Maintenance/ShowSearchFor.cshtml]
+[/Users/ryeean/Projects/CruisinV2/CruisinV2/Views/Maintenance/ShowSearchFor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbnRlbmFuY2UvU2hvd1NlYXJjaEZvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ryeean/Projects/CruisinV2/Views/Shared/Error.cshtml]
+[/Users/ryeean/Projects/CruisinV2/CruisinV2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ryeean/Projects/CruisinV2/Views/Shared/_LoginPartial.cshtml]
+[/Users/ryeean/Projects/CruisinV2/CruisinV2/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ryeean/Projects/CruisinV2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/ryeean/Projects/CruisinV2/CruisinV2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ryeean/Projects/CruisinV2/Views/WarningLights/Details.cshtml]
+[/Users/ryeean/Projects/CruisinV2/CruisinV2/Views/WarningLights/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV2FybmluZ0xpZ2h0cy9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ryeean/Projects/CruisinV2/Views/WarningLights/Index.cshtml]
+[/Users/ryeean/Projects/CruisinV2/CruisinV2/Views/WarningLights/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV2FybmluZ0xpZ2h0cy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ryeean/Projects/CruisinV2/Views/_ViewImports.cshtml]
+[/Users/ryeean/Projects/CruisinV2/CruisinV2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ryeean/Projects/CruisinV2/Views/_ViewStart.cshtml]
+[/Users/ryeean/Projects/CruisinV2/CruisinV2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ryeean/Projects/CruisinV2/Views/Shared/_Layout.cshtml]
+[/Users/ryeean/Projects/CruisinV2/CruisinV2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-benh17tcnx

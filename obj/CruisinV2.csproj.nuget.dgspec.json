@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ryeean/Projects/CruisinV2/CruisinV2.csproj": {}
+    "/Users/ryeean/Projects/CruisinV2/CruisinV2/CruisinV2.csproj": {}
   },
   "projects": {
-    "/Users/ryeean/Projects/CruisinV2/CruisinV2.csproj": {
+    "/Users/ryeean/Projects/CruisinV2/CruisinV2/CruisinV2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ryeean/Projects/CruisinV2/CruisinV2.csproj",
+        "projectUniqueName": "/Users/ryeean/Projects/CruisinV2/CruisinV2/CruisinV2.csproj",
         "projectName": "CruisinV2",
-        "projectPath": "/Users/ryeean/Projects/CruisinV2/CruisinV2.csproj",
+        "projectPath": "/Users/ryeean/Projects/CruisinV2/CruisinV2/CruisinV2.csproj",
         "packagesPath": "/Users/ryeean/.nuget/packages/",
-        "outputPath": "/Users/ryeean/Projects/CruisinV2/obj/",
+        "outputPath": "/Users/ryeean/Projects/CruisinV2/CruisinV2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ryeean/.nuget/NuGet/NuGet.Config"

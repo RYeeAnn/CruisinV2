@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0CXVKP54Li8=",
+  "dgSpecHash": "xMnaq0eByUo=",
   "success": true,
-  "projectFilePath": "/Users/ryeean/Projects/CruisinV2/CruisinV2.csproj",
+  "projectFilePath": "/Users/ryeean/Projects/CruisinV2/CruisinV2/CruisinV2.csproj",
   "expectedPackageFiles": [
     "/Users/ryeean/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/ryeean/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
