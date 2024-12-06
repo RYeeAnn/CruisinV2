@@ -2,7 +2,123 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>The time now is @DateTime.Now</a>.</p>
+<div class="home-container">
+    <div class="welcome-banner">
+        <h1 class="display-4">Welcome to CruisinV2</h1>
+        <p>Your ultimate guide to understanding your car better.</p>
+    </div>
+
+    <div class="current-time">
+        <p>The current time is <strong id="current-time"></strong>.</p>
+    </div>
+
+    <div class="features">
+        <h2>Explore Our Features</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fa fa-car fa-3x"></i>
+                <h3>Warning Lights</h3>
+                <p>Understand what your car is trying to tell you.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa fa-wrench fa-3x"></i>
+                <h3>Maintenance Tips</h3>
+                <p>Learn how to keep your car in top shape.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa fa-info-circle fa-3x"></i>
+                <h3>Privacy Policy</h3>
+                <p>Learn how we protect your data.</p>
+            </div>
+        </div>
+    </div>
 </div>
+
+<script>
+    function updateTime() {
+        const timeElement = document.getElementById('current-time');
+        const now = new Date();
+        const formattedTime = now.toLocaleString('en-US', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+            hour12: true
+        });
+        timeElement.textContent = formattedTime;
+    }
+
+    // Update the time every second
+    setInterval(updateTime, 1000);
+
+    // Initialize the time immediately when the page loads
+    updateTime();
+</script>
+
+<style>
+    .home-container {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .welcome-banner {
+        background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+        color: white;
+        padding: 50px 20px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+    }
+
+    .welcome-banner h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+
+    .current-time {
+        font-size: 1.2rem;
+        color: #555;
+        margin-bottom: 20px;
+    }
+
+    .features {
+        margin-top: 30px;
+    }
+
+    .features h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    .feature-card {
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background: white;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .feature-card h3 {
+        margin-top: 15px;
+        font-size: 1.5rem;
+    }
+
+    .feature-card p {
+        font-size: 1rem;
+        color: #666;
+    }
+
+    .fa {
+        color: #007bff;
+    }
+</style>
