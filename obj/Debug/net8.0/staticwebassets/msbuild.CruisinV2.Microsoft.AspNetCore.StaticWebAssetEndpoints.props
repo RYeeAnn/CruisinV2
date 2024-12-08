@@ -228,17 +228,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gk1092aqgu"},{"Name":"integrity","Value":"sha256-8BjdoWlMjHo6AFC1\u002BojFeQ7o06edaenKzMh\u002B6DwkyfA="},{"Name":"label","Value":"_content/CruisinV2/CruisinV2.bundle.scp.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00228BjdoWlMjHo6AFC1\u002BojFeQ7o06edaenKzMh\u002B6DwkyfA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 04:19:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CruisinV2/css/site.b4salun78i.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b4salun78i"},{"Name":"integrity","Value":"sha256-JbYwYz3B3GLA6CWhTJXgtsEXgYUFA2ay/Sn6QQcGKUM="},{"Name":"label","Value":"_content/CruisinV2/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1476"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022JbYwYz3B3GLA6CWhTJXgtsEXgYUFA2ay/Sn6QQcGKUM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 12:21:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CruisinV2/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kkIKzNlHFj25pU1IFoc1BBm3nOvtkSC9nCTI8\u002Bt0/xw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1458"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022kkIKzNlHFj25pU1IFoc1BBm3nOvtkSC9nCTI8\u002Bt0/xw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 04:16:42 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/CruisinV2/css/site.i768w79naq.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i768w79naq"},{"Name":"integrity","Value":"sha256-kkIKzNlHFj25pU1IFoc1BBm3nOvtkSC9nCTI8\u002Bt0/xw="},{"Name":"label","Value":"_content/CruisinV2/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1458"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022kkIKzNlHFj25pU1IFoc1BBm3nOvtkSC9nCTI8\u002Bt0/xw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 04:16:42 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JbYwYz3B3GLA6CWhTJXgtsEXgYUFA2ay/Sn6QQcGKUM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1476"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022JbYwYz3B3GLA6CWhTJXgtsEXgYUFA2ay/Sn6QQcGKUM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 12:21:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CruisinV2/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
