@@ -324,23 +324,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\washer-fluid.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CruisinV2.gwxk5b0ayq.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CruisinV2.gk1092aqgu.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>CruisinV2</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/CruisinV2</BasePath>
-      <RelativePath>CruisinV2.gwxk5b0ayq.bundle.scp.css</RelativePath>
+      <RelativePath>CruisinV2.gk1092aqgu.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>gwxk5b0ayq</Fingerprint>
-      <Integrity>YGajGm8+u6TWsTVkXaq+8zjQwdy3nmSlfyEVnmqTnMQ=</Integrity>
+      <Fingerprint>gk1092aqgu</Fingerprint>
+      <Integrity>8BjdoWlMjHo6AFC1+ojFeQ7o06edaenKzMh+6DwkyfA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CruisinV2.gwxk5b0ayq.bundle.scp.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CruisinV2.gk1092aqgu.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))">
       <SourceType>Package</SourceType>
@@ -354,8 +354,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wg1l7d6qeo</Fingerprint>
-      <Integrity>sJVHqfMTF/QSBSI9X9y5x4NOd2YBMLAFXvwLKTVVB9s=</Integrity>
+      <Fingerprint>i768w79naq</Fingerprint>
+      <Integrity>kkIKzNlHFj25pU1IFoc1BBm3nOvtkSC9nCTI8+t0/xw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>

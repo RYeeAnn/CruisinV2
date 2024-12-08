@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CVuFP0T0wvrIn3ONhKIa9pwmBeXkeWw5hhTzCIkuEKg=",
+  "Hash": "Oh27WPzFszXwrObXHbUIdCCq4GkSEHoarJaZhhsrE94=",
   "Source": "CruisinV2",
   "BasePath": "_content/CruisinV2",
   "Mode": "Default",
@@ -1291,8 +1291,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "gwxk5b0ayq",
-      "Integrity": "YGajGm8+u6TWsTVkXaq+8zjQwdy3nmSlfyEVnmqTnMQ=",
+      "Fingerprint": "gk1092aqgu",
+      "Integrity": "8BjdoWlMjHo6AFC1+ojFeQ7o06edaenKzMh+6DwkyfA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CruisinV2.styles.css"
@@ -1312,8 +1312,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "gwxk5b0ayq",
-      "Integrity": "YGajGm8+u6TWsTVkXaq+8zjQwdy3nmSlfyEVnmqTnMQ=",
+      "Fingerprint": "gk1092aqgu",
+      "Integrity": "8BjdoWlMjHo6AFC1+ojFeQ7o06edaenKzMh+6DwkyfA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CruisinV2.bundle.scp.css"
@@ -1711,8 +1711,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wg1l7d6qeo",
-      "Integrity": "sJVHqfMTF/QSBSI9X9y5x4NOd2YBMLAFXvwLKTVVB9s=",
+      "Fingerprint": "i768w79naq",
+      "Integrity": "kkIKzNlHFj25pU1IFoc1BBm3nOvtkSC9nCTI8+t0/xw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -4445,7 +4445,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "1131"
         },
         {
           "Name": "Content-Type",
@@ -4453,11 +4453,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YGajGm8+u6TWsTVkXaq+8zjQwdy3nmSlfyEVnmqTnMQ=\""
+          "Value": "\"8BjdoWlMjHo6AFC1+ojFeQ7o06edaenKzMh+6DwkyfA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 01:59:33 GMT"
+          "Value": "Sun, 08 Dec 2024 04:19:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4467,12 +4467,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YGajGm8+u6TWsTVkXaq+8zjQwdy3nmSlfyEVnmqTnMQ="
+          "Value": "sha256-8BjdoWlMjHo6AFC1+ojFeQ7o06edaenKzMh+6DwkyfA="
         }
       ]
     },
     {
-      "Route": "CruisinV2.gwxk5b0ayq.bundle.scp.css",
+      "Route": "CruisinV2.gk1092aqgu.bundle.scp.css",
       "AssetFile": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CruisinV2.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4482,7 +4482,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "1131"
         },
         {
           "Name": "Content-Type",
@@ -4490,11 +4490,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YGajGm8+u6TWsTVkXaq+8zjQwdy3nmSlfyEVnmqTnMQ=\""
+          "Value": "\"8BjdoWlMjHo6AFC1+ojFeQ7o06edaenKzMh+6DwkyfA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 01:59:33 GMT"
+          "Value": "Sun, 08 Dec 2024 04:19:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4504,7 +4504,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gwxk5b0ayq"
+          "Value": "gk1092aqgu"
         },
         {
           "Name": "label",
@@ -4512,12 +4512,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YGajGm8+u6TWsTVkXaq+8zjQwdy3nmSlfyEVnmqTnMQ="
+          "Value": "sha256-8BjdoWlMjHo6AFC1+ojFeQ7o06edaenKzMh+6DwkyfA="
         }
       ]
     },
     {
-      "Route": "CruisinV2.gwxk5b0ayq.styles.css",
+      "Route": "CruisinV2.gk1092aqgu.styles.css",
       "AssetFile": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CruisinV2.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4527,7 +4527,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "1131"
         },
         {
           "Name": "Content-Type",
@@ -4535,11 +4535,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YGajGm8+u6TWsTVkXaq+8zjQwdy3nmSlfyEVnmqTnMQ=\""
+          "Value": "\"8BjdoWlMjHo6AFC1+ojFeQ7o06edaenKzMh+6DwkyfA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 04:04:56 GMT"
+          "Value": "Sun, 08 Dec 2024 04:19:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4549,7 +4549,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gwxk5b0ayq"
+          "Value": "gk1092aqgu"
         },
         {
           "Name": "label",
@@ -4557,7 +4557,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YGajGm8+u6TWsTVkXaq+8zjQwdy3nmSlfyEVnmqTnMQ="
+          "Value": "sha256-8BjdoWlMjHo6AFC1+ojFeQ7o06edaenKzMh+6DwkyfA="
         }
       ]
     },
@@ -4572,7 +4572,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "1131"
         },
         {
           "Name": "Content-Type",
@@ -4580,11 +4580,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YGajGm8+u6TWsTVkXaq+8zjQwdy3nmSlfyEVnmqTnMQ=\""
+          "Value": "\"8BjdoWlMjHo6AFC1+ojFeQ7o06edaenKzMh+6DwkyfA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 04:04:56 GMT"
+          "Value": "Sun, 08 Dec 2024 04:19:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4594,7 +4594,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YGajGm8+u6TWsTVkXaq+8zjQwdy3nmSlfyEVnmqTnMQ="
+          "Value": "sha256-8BjdoWlMjHo6AFC1+ojFeQ7o06edaenKzMh+6DwkyfA="
         }
       ]
     },
@@ -4609,7 +4609,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1735"
+          "Value": "1458"
         },
         {
           "Name": "Content-Type",
@@ -4617,11 +4617,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sJVHqfMTF/QSBSI9X9y5x4NOd2YBMLAFXvwLKTVVB9s=\""
+          "Value": "\"kkIKzNlHFj25pU1IFoc1BBm3nOvtkSC9nCTI8+t0/xw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 04:05:10 GMT"
+          "Value": "Sun, 08 Dec 2024 04:16:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4631,12 +4631,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sJVHqfMTF/QSBSI9X9y5x4NOd2YBMLAFXvwLKTVVB9s="
+          "Value": "sha256-kkIKzNlHFj25pU1IFoc1BBm3nOvtkSC9nCTI8+t0/xw="
         }
       ]
     },
     {
-      "Route": "css/site.wg1l7d6qeo.css",
+      "Route": "css/site.i768w79naq.css",
       "AssetFile": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4646,7 +4646,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1735"
+          "Value": "1458"
         },
         {
           "Name": "Content-Type",
@@ -4654,11 +4654,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sJVHqfMTF/QSBSI9X9y5x4NOd2YBMLAFXvwLKTVVB9s=\""
+          "Value": "\"kkIKzNlHFj25pU1IFoc1BBm3nOvtkSC9nCTI8+t0/xw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 04:05:10 GMT"
+          "Value": "Sun, 08 Dec 2024 04:16:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4668,7 +4668,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wg1l7d6qeo"
+          "Value": "i768w79naq"
         },
         {
           "Name": "label",
@@ -4676,7 +4676,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-sJVHqfMTF/QSBSI9X9y5x4NOd2YBMLAFXvwLKTVVB9s="
+          "Value": "sha256-kkIKzNlHFj25pU1IFoc1BBm3nOvtkSC9nCTI8+t0/xw="
         }
       ]
     },
