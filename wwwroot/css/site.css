@@ -59,3 +59,29 @@ header {
 .navbar-nav {
   align-items: center;
 }
+
+    .floating-icons {
+        position: absolute;
+        width: 50%;
+        height: 140%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    .floating-icons i {
+        font-size: 4rem;
+        color: rgba(255, 255, 255, 0.2);
+        animation: float 6s infinite ease-in-out;
+    }
+
+    @keyframes float {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-15px);
+        }
+    }

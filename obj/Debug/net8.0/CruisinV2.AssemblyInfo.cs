@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CruisinV2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28c3c54c8ceed93e86676be062a611bf2ac40b36")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc84fc07e0d87b3ea784b27b73cc2d1433f27ed2")]
 [assembly: System.Reflection.AssemblyProductAttribute("CruisinV2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CruisinV2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
