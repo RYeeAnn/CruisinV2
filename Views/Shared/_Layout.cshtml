@@ -62,93 +62,159 @@
     </script>
 
     <!-- Quiz -->
-    <script>
-        let currentQuestionIndex = 0;
-        let score = 0;
+<script>
+    let currentQuestionIndex = 0;
+    let score = 0;
 
-        const quizQuestions = [
-            {
-                question: "What does ABS stand for?",
-                answers: [
-                    { text: "Anti-lock Braking System", correct: true },
-                    { text: "Automatic Brake Setting", correct: false },
-                    { text: "Auxiliary Brake Sensor", correct: false },
-                    { text: "Active Braking System", correct: false },
-                ],
-            },
-            {
-                question: "What is the main purpose of engine oil?",
-                answers: [
-                    { text: "To lubricate engine parts", correct: true },
-                    { text: "To clean the engine", correct: false },
-                    { text: "To cool down the car", correct: false },
-                    { text: "To increase fuel efficiency", correct: false },
-                ],
-            },
-            // Add 8 more questions like this
-        ];
+    const quizQuestions = [
+        {
+            question: "What does ABS stand for?",
+            answers: [
+                { text: "Anti-lock Braking System", correct: true },
+                { text: "Automatic Brake Setting", correct: false },
+                { text: "Auxiliary Brake Sensor", correct: false },
+                { text: "Active Braking System", correct: false },
+            ],
+        },
+        {
+            question: "What is the main purpose of engine oil?",
+            answers: [
+                { text: "To lubricate engine parts", correct: true },
+                { text: "To clean the engine", correct: false },
+                { text: "To cool down the car", correct: false },
+                { text: "To increase fuel efficiency", correct: false },
+            ],
+        },
+        {
+            question: "What does the check engine light mean?",
+            answers: [
+                { text: "Low tire pressure", correct: false },
+                { text: "Engine malfunction", correct: true },
+                { text: "Low oil level", correct: false },
+                { text: "Brake failure", correct: false },
+            ],
+        },
+        {
+            question: "What is the typical color of coolant fluid?",
+            answers: [
+                { text: "Blue or Green", correct: true },
+                { text: "Red or Yellow", correct: false },
+                { text: "Transparent", correct: false },
+                { text: "Black", correct: false },
+            ],
+        },
+        {
+            question: "What is the purpose of a car's alternator?",
+            answers: [
+                { text: "To start the engine", correct: false },
+                { text: "To generate electrical power", correct: true },
+                { text: "To cool the engine", correct: false },
+                { text: "To power the fuel pump", correct: false },
+            ],
+        },
+        {
+            question: "What does 'PSI' in tires stand for?",
+            answers: [
+                { text: "Pounds per Square Inch", correct: true },
+                { text: "Pressure Stability Index", correct: false },
+                { text: "Pneumatic System Indicator", correct: false },
+                { text: "Pressure Safety Information", correct: false },
+            ],
+        },
+        {
+            question: "How often should windshield wipers be replaced?",
+            answers: [
+                { text: "Every 6 months", correct: true },
+                { text: "Every 2 years", correct: false },
+                { text: "When they stop working", correct: false },
+                { text: "Never", correct: false },
+            ],
+        },
+        {
+            question: "What is the function of brake fluid?",
+            answers: [
+                { text: "To lubricate brakes", correct: false },
+                { text: "To transfer force to brake pads", correct: true },
+                { text: "To clean the brakes", correct: false },
+                { text: "To cool the brakes", correct: false },
+            ],
+        },
+        {
+            question: "What does RPM measure?",
+            answers: [
+                { text: "Road speed", correct: false },
+                { text: "Engine speed", correct: true },
+                { text: "Battery voltage", correct: false },
+                { text: "Fuel efficiency", correct: false },
+            ],
+        },
+        {
+            question: "What is the catalytic converter's primary purpose?",
+            answers: [
+                { text: "To improve fuel efficiency", correct: false },
+                { text: "To reduce exhaust emissions", correct: true },
+                { text: "To increase horsepower", correct: false },
+                { text: "To cool the exhaust system", correct: false },
+            ],
+        },
+    ];
 
-        function startQuiz() {
-            // Reset the state
-            currentQuestionIndex = 0;
-            score = 0;
-            document.getElementById("quiz-score").innerText = "";
-            document.getElementById("next-question-btn").style.display = "none";
-            openQuizModal();
+    function startQuiz() {
+        // Reset the quiz state
+        currentQuestionIndex = 0;
+        score = 0;
+        document.getElementById("quiz-score").innerText = "";
+        document.getElementById("quiz-content").style.opacity = 1;
+        document.getElementById("next-question-btn").style.display = "none";
+        document.getElementById("quiz-modal").style.display = "flex"; // Ensure the modal pops up
+        loadQuestion();
+    }
+
+    function closeQuizModal() {
+        document.getElementById("quiz-modal").style.display = "none";
+    }
+
+    function loadQuestion() {
+        const questionData = quizQuestions[currentQuestionIndex];
+        document.getElementById("quiz-question").innerText = `Question ${currentQuestionIndex + 1}: ${questionData.question}`;
+
+        const answersContainer = document.getElementById("quiz-answers");
+        answersContainer.innerHTML = "";
+
+        questionData.answers.forEach((answer) => {
+            const button = document.createElement("button");
+            button.className = "quiz-answer-button";
+            button.innerText = answer.text;
+            button.onclick = () => checkAnswer(answer.correct);
+            answersContainer.appendChild(button);
+        });
+    }
+
+    function checkAnswer(isCorrect) {
+        if (isCorrect) {
+            score++;
+        }
+
+        document.getElementById("quiz-score").innerText = `Score: ${score}/${quizQuestions.length}`;
+        document.getElementById("next-question-btn").style.display = "block";
+
+        // Disable buttons after selection
+        const buttons = document.querySelectorAll("#quiz-answers button");
+        buttons.forEach((button) => (button.disabled = true));
+    }
+
+    function nextQuestion() {
+        currentQuestionIndex++;
+
+        if (currentQuestionIndex < quizQuestions.length) {
             loadQuestion();
+            document.getElementById("next-question-btn").style.display = "none";
+        } else {
+            document.getElementById("quiz-content").style.opacity = 0;
+            document.getElementById("quiz-content").innerHTML = `<p style="font-size: 1.5rem;">🎉 Quiz Complete! Your final score is ${score}/${quizQuestions.length}.</p>`;
         }
-
-        function openQuizModal() {
-            const modal = document.getElementById("quiz-modal");
-            modal.style.display = "flex";
-        }
-
-        function closeQuizModal() {
-            const modal = document.getElementById("quiz-modal");
-            modal.style.display = "none";
-        }
-
-        function loadQuestion() {
-            const questionData = quizQuestions[currentQuestionIndex];
-            document.getElementById("quiz-question").innerText = `Question ${currentQuestionIndex + 1}: ${questionData.question}`;
-
-            const answersContainer = document.getElementById("quiz-answers");
-            answersContainer.innerHTML = "";
-
-            questionData.answers.forEach((answer, index) => {
-                const button = document.createElement("button");
-                button.innerText = answer.text;
-                button.onclick = () => checkAnswer(answer.correct);
-                answersContainer.appendChild(button);
-            });
-        }
-
-        function checkAnswer(isCorrect) {
-            if (isCorrect) {
-                score++;
-            }
-
-            document.getElementById("quiz-score").innerText = `Score: ${score}/${quizQuestions.length}`;
-            document.getElementById("next-question-btn").style.display = "block";
-
-            // Disable buttons after answering
-            const buttons = document.querySelectorAll("#quiz-answers button");
-            buttons.forEach((button) => (button.disabled = true));
-        }
-
-        function nextQuestion() {
-            currentQuestionIndex++;
-
-            if (currentQuestionIndex < quizQuestions.length) {
-                loadQuestion();
-                document.getElementById("next-question-btn").style.display = "none";
-            } else {
-                // End of quiz
-                document.getElementById("quiz-content").innerHTML = `<p>🎉 Quiz Complete! Your final score is ${score}/${quizQuestions.length}.</p>`;
-                document.getElementById("next-question-btn").style.display = "none";
-            }
-        }
-    </script>
+    }
+</script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
