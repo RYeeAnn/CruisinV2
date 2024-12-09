@@ -1,5 +1,7 @@
 html {
   font-size: 14px;
+  position: relative;
+  min-height: 100%;
 }
 
 @media (min-width: 768px) {
@@ -10,11 +12,6 @@ html {
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
 }
 
 body {
@@ -60,29 +57,197 @@ header {
   align-items: center;
 }
 
-    .floating-icons {
-        position: absolute;
-        width: 50%;
-        height: 140%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        z-index: 1;
-        pointer-events: none;
-    }
+.floating-icons {
+  position: absolute;
+  width: 50%;
+  height: 140%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+  pointer-events: none;
+}
 
-    .floating-icons i {
-        font-size: 4rem;
-        color: rgba(255, 255, 255, 0.2);
-        animation: float 6s infinite ease-in-out;
-    }
+.floating-icons i {
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 0.2);
+  animation: float 6s infinite ease-in-out;
+}
 
-    /* Banner */
-    @keyframes float {
-        0%, 100% {
-            transform: translateY(0);
-        }
-        50% {
-            transform: translateY(-15px);
-        }
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  padding: 100px 20px;
+  /* background: linear-gradient(135deg, #1a1a2e, #0f3460); */
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+
+.hero-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-title {
+  font-size: 2rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background: linear-gradient(135deg, #ff7f50, #ff4500);
+  color: white;
+  font-size: 1.2rem;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 5px 15px rgba(255, 69, 0, 0.5);
+}
+
+.cta-button:hover {
+  background: linear-gradient(135deg, #ff4500, #ff7f50);
+  box-shadow: 0px 10px 20px rgba(255, 69, 0, 0.8);
+}
+
+.hero-graphic {
+  max-width: 45%;
+}
+
+.hero-graphic img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Decorative Elements */
+/* .decorative-bg .circle-large {
+  position: absolute;
+  top: -50px;
+  right: -80px;
+  width: 150px;
+  height: 150px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.decorative-bg .circle-small {
+  position: absolute;
+  bottom: -30px;
+  left: -60px;
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+} */
+
+/* Features Section */
+.features {
+  text-align: center;
+}
+
+.features-title {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.feature-card {
+  background: linear-gradient(135deg, #23232e, #3a3a4d);
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #ff7f50;
+  margin-bottom: 20px;
+}
+
+.feature-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.feature-card p {
+  color: #ccc;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.feature-button {
+  background: linear-gradient(135deg, #ff7f50, #ff4500);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  border: none;
+  text-decoration: none; /* Removes underline */
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 5px 15px rgba(255, 69, 0, 0.5); /* Adds a glowing shadow */
+}
+
+.feature-button:hover {
+  background: linear-gradient(135deg, #ff4500, #ff7f50);
+  transform: translateY(-3px); /* Subtle lift effect */
+  box-shadow: 0px 8px 20px rgba(255, 69, 0, 0.7);
+}
+
+.quiz-section {
+  margin-top: 50px;
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(135deg, #2a2a3c, #1e1e2e);
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+/* Banner */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
     }
+    50% {
+        transform: translateY(-15px);
+    }
+}
