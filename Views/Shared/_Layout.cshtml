@@ -60,6 +60,96 @@
         featuresSection.scrollIntoView({ behavior: 'smooth' });
     }
     </script>
+
+    <!-- Quiz -->
+    <script>
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        const quizQuestions = [
+            {
+                question: "What does ABS stand for?",
+                answers: [
+                    { text: "Anti-lock Braking System", correct: true },
+                    { text: "Automatic Brake Setting", correct: false },
+                    { text: "Auxiliary Brake Sensor", correct: false },
+                    { text: "Active Braking System", correct: false },
+                ],
+            },
+            {
+                question: "What is the main purpose of engine oil?",
+                answers: [
+                    { text: "To lubricate engine parts", correct: true },
+                    { text: "To clean the engine", correct: false },
+                    { text: "To cool down the car", correct: false },
+                    { text: "To increase fuel efficiency", correct: false },
+                ],
+            },
+            // Add 8 more questions like this
+        ];
+
+        function startQuiz() {
+            // Reset the state
+            currentQuestionIndex = 0;
+            score = 0;
+            document.getElementById("quiz-score").innerText = "";
+            document.getElementById("next-question-btn").style.display = "none";
+            openQuizModal();
+            loadQuestion();
+        }
+
+        function openQuizModal() {
+            const modal = document.getElementById("quiz-modal");
+            modal.style.display = "flex";
+        }
+
+        function closeQuizModal() {
+            const modal = document.getElementById("quiz-modal");
+            modal.style.display = "none";
+        }
+
+        function loadQuestion() {
+            const questionData = quizQuestions[currentQuestionIndex];
+            document.getElementById("quiz-question").innerText = `Question ${currentQuestionIndex + 1}: ${questionData.question}`;
+
+            const answersContainer = document.getElementById("quiz-answers");
+            answersContainer.innerHTML = "";
+
+            questionData.answers.forEach((answer, index) => {
+                const button = document.createElement("button");
+                button.innerText = answer.text;
+                button.onclick = () => checkAnswer(answer.correct);
+                answersContainer.appendChild(button);
+            });
+        }
+
+        function checkAnswer(isCorrect) {
+            if (isCorrect) {
+                score++;
+            }
+
+            document.getElementById("quiz-score").innerText = `Score: ${score}/${quizQuestions.length}`;
+            document.getElementById("next-question-btn").style.display = "block";
+
+            // Disable buttons after answering
+            const buttons = document.querySelectorAll("#quiz-answers button");
+            buttons.forEach((button) => (button.disabled = true));
+        }
+
+        function nextQuestion() {
+            currentQuestionIndex++;
+
+            if (currentQuestionIndex < quizQuestions.length) {
+                loadQuestion();
+                document.getElementById("next-question-btn").style.display = "none";
+            } else {
+                // End of quiz
+                document.getElementById("quiz-content").innerHTML = `<p>🎉 Quiz Complete! Your final score is ${score}/${quizQuestions.length}.</p>`;
+                document.getElementById("next-question-btn").style.display = "none";
+            }
+        }
+    </script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

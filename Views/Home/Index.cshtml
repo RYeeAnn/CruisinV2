@@ -64,13 +64,32 @@
         </div>
     </div>
 
-    <div class="quiz-section">
-        <h2>Think You Know Cars?</h2>
-        <p>Take our quick quiz and test your knowledge about cars!</p>
-        <button class="cta-button">Start Quiz</button>
+<div class="quiz-section">
+    <h2>Think You Know Cars?</h2>
+    <p>Take a quick quiz and test your knowledge about cars!</p>
+    <button class="cta-button" onclick="startQuiz()">Start Quiz</button>
+</div>
+
+<!-- Quiz Modal -->
+<div id="quiz-modal" class="quiz-modal">
+    <div class="quiz-modal-content">
+        <span class="close-modal" onclick="closeQuizModal()">&times;</span>
+        <h3>Car Knowledge Quiz</h3>
+        <div id="quiz-content">
+            <p id="quiz-question"><strong>Question 1:</strong> Loading...</p>
+                <div id="quiz-answers" class="quiz-answers">
+                    <button>Option 1</button>
+                    <button>Option 2</button>
+                    <button>Option 3</button>
+                    <button>Option 4</button>
+                </div>
+        </div>
+        <div id="quiz-footer">
+            <p id="quiz-score"></p>
+            <button id="next-question-btn" onclick="nextQuestion()">Next Question</button>
+        </div>
     </div>
-
-
+</div>
 
 
 </div>

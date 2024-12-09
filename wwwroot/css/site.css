@@ -232,6 +232,7 @@ header {
   box-shadow: 0px 8px 20px rgba(255, 69, 0, 0.7);
 }
 
+/* Quiz */
 .quiz-section {
   margin-top: 50px;
   text-align: center;
@@ -241,6 +242,123 @@ header {
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
   color: white;
 }
+
+.quiz-modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.quiz-modal-content {
+  background: #1e1e2e;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  animation: slideUp 0.5s forwards;
+}
+
+@keyframes slideUp {
+  from {
+      transform: translateY(100%);
+  }
+  to {
+      transform: translateY(0%);
+  }
+}
+
+.close-modal {
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.quiz-modal h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #ffa07a;
+}
+
+#quiz-question {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.quiz-modal button {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #ff7f50, #ff4500);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.quiz-modal button:hover {
+  background: linear-gradient(135deg, #ff4500, #ff7f50);
+  transform: scale(1.05);
+}
+
+.quiz-answers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  justify-content: center;
+}
+
+#quiz-score {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #ffa07a;
+}
+
+#next-question-btn {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#next-question-btn:hover {
+  background: linear-gradient(135deg, #0056b3, #007bff);
+  transform: scale(1.05);
+}
+
 
 /* Banner */
 @keyframes float {
