@@ -22,9 +22,9 @@
 
         <div class="hero-content-wrapper">
             <div class="hero-content">
-                <h1 class="hero-title">( Under Construction :) )</h1>
+                <h1 class="hero-title">CruisinV2</h1>
                 <p class="hero-subtitle">Your ultimate guide to understanding your car better.</p>
-                <button class="cta-button">Explore Features</button>
+                <button class="cta-button" onclick="scrollToFeatures()">Explore Features</button>
             </div>
 
             <div class="hero-graphic">
@@ -34,7 +34,7 @@
     </div>
 
     <!-- Features Section -->
-    <div class="features">
+    <div class="features" id="features-section">
         <h2 class="features-title">Explore Our Features</h2>
         <div class="features-grid">
             <div class="feature-card">
@@ -216,14 +216,22 @@
     .feature-button {
         background: linear-gradient(135deg, #ff7f50, #ff4500);
         color: white;
-        padding: 10px 20px;
-        border-radius: 20px;
+        padding: 12px 24px;
+        border-radius: 25px;
         border: none;
+        text-decoration: none; /* Removes underline */
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
         cursor: pointer;
         transition: all 0.3s ease;
+        box-shadow: 0px 5px 15px rgba(255, 69, 0, 0.5); /* Adds a glowing shadow */
     }
 
     .feature-button:hover {
         background: linear-gradient(135deg, #ff4500, #ff7f50);
+        transform: translateY(-3px); /* Subtle lift effect */
+        box-shadow: 0px 8px 20px rgba(255, 69, 0, 0.7);
     }
+
 </style>
