@@ -216,10 +216,22 @@
         if (currentQuestionIndex < quizQuestions.length) {
             loadQuestion();
             document.getElementById("next-question-btn").style.display = "none";
+        } else if (score < 5) {
+            document.getElementById("quiz-content").innerHTML = `<p style="font-size: 1.5rem;">🎉 Quiz Complete! Your final score is ${score}/${quizQuestions.length}.</p>
+            <p style="font-size: 1.5rem; color: red;">You failed...</p>`;
+        } else if (score >= 5 && score <= 7) {
+            document.getElementById("quiz-content").innerHTML = `<p style="font-size: 1.5rem;">🎉 Quiz Complete! Your final score is ${score}/${quizQuestions.length}.</p>
+            <p style="font-size: 1.5rem; color: yellow;"> Not bad!</p>`;
+        } else if (score == 8 || score == 9) {
+            document.getElementById("quiz-content").innerHTML = `<p style="font-size: 1.5rem;">🎉 Quiz Complete! Your final score is ${score}/${quizQuestions.length}.</p>
+            <p style="font-size: 1.5rem; color: blue"> Well done!</p>`
+        } else if (score == 10) {
+            document.getElementById("quiz-content").innerHTML = `<p style="font-size: 1.5rem;">🎉 Quiz Complete! Your final score is ${score}/${quizQuestions.length}.</p>
+            <p style="font-size: 1.5rem; color: green;"> You definitely know your stuff! I'll never doubt you again.</p>`
         } else {
-            document.getElementById("quiz-content").style.opacity = 0;
-            document.getElementById("quiz-content").innerHTML = `<p style="font-size: 1.5rem;">🎉 Quiz Complete! Your final score is ${score}/${quizQuestions.length}.</p>`;
+            document.getElementById("quiz-content").innerHTML = `<p style="font-size: 1.5rem;">🎉 Quiz Complete! Your final score is ${score}/${quizQuestions.length}.</p> <p style="font-size: 1.5rem;"></p>`
         }
+        document.getElementById("next-question-btn").style.display = "none";
     }
 </script>
 
