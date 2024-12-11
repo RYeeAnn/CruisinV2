@@ -210,11 +210,17 @@
             loadQuestion();
             document.getElementById("next-question-btn").style.display = "none";
         } else {
-            document.getElementById("quiz-content").style.opacity = 0;
-            document.getElementById("quiz-content").innerHTML = `<p style="font-size: 1.5rem;">🎉 Quiz Complete! Your final score is ${score}/${quizQuestions.length}.</p>`;
+            // End of quiz
+            document.getElementById("quiz-content").style.opacity = 1;
+            document.getElementById("quiz-content").innerHTML = `
+                <p style="font-size: 1.5rem; text-align: center;">🎉 Quiz Complete!</p>
+                <p style="font-size: 1.2rem; text-align: center;">Your final score is <strong>${score}/${quizQuestions.length}</strong>.</p>
+            `;
+            document.getElementById("next-question-btn").style.display = "none";
         }
     }
 </script>
+
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
