@@ -1,335 +1,339 @@
 {
   "Files": [
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/obj/Debug/net8.0/scopedcss/projectbundle/CruisinV2.bundle.scp.css",
-      "PackagePath": "staticwebassets/CruisinV2.bundle.scp.css"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CruisinV2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CruisinV2.gk1092aqgu.bundle.scp.css"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/assets/ABS-light.png",
-      "PackagePath": "staticwebassets/assets/ABS-light.png"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\assets\\ABS-light.png",
+      "PackagePath": "staticwebassets\\assets\\ABS-light.png"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/assets/airbag-indicator.png",
-      "PackagePath": "staticwebassets/assets/airbag-indicator.png"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\assets\\airbag-indicator.png",
+      "PackagePath": "staticwebassets\\assets\\airbag-indicator.png"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/assets/battery-alert.png",
-      "PackagePath": "staticwebassets/assets/battery-alert.png"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\assets\\battery-alert.png",
+      "PackagePath": "staticwebassets\\assets\\battery-alert.png"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/assets/brake-warning.png",
-      "PackagePath": "staticwebassets/assets/brake-warning.png"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\assets\\brake-warning.png",
+      "PackagePath": "staticwebassets\\assets\\brake-warning.png"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/assets/check-engine-light.png",
-      "PackagePath": "staticwebassets/assets/check-engine-light.png"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\assets\\check-engine-light.png",
+      "PackagePath": "staticwebassets\\assets\\check-engine-light.png"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/assets/engine-temperature.png",
-      "PackagePath": "staticwebassets/assets/engine-temperature.png"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\assets\\engine-temperature.png",
+      "PackagePath": "staticwebassets\\assets\\engine-temperature.png"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/assets/fog-lamp.png",
-      "PackagePath": "staticwebassets/assets/fog-lamp.png"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\assets\\fog-lamp.png",
+      "PackagePath": "staticwebassets\\assets\\fog-lamp.png"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/assets/lane-departure.png",
-      "PackagePath": "staticwebassets/assets/lane-departure.png"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\assets\\lane-departure.png",
+      "PackagePath": "staticwebassets\\assets\\lane-departure.png"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/assets/low-fuel.png",
-      "PackagePath": "staticwebassets/assets/low-fuel.png"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\assets\\low-fuel.png",
+      "PackagePath": "staticwebassets\\assets\\low-fuel.png"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/assets/oil-pressure-light.png",
-      "PackagePath": "staticwebassets/assets/oil-pressure-light.png"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\assets\\oil-pressure-light.png",
+      "PackagePath": "staticwebassets\\assets\\oil-pressure-light.png"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/assets/seat-belt.png",
-      "PackagePath": "staticwebassets/assets/seat-belt.png"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\assets\\seat-belt.png",
+      "PackagePath": "staticwebassets\\assets\\seat-belt.png"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/assets/security-indicator.png",
-      "PackagePath": "staticwebassets/assets/security-indicator.png"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\assets\\security-indicator.png",
+      "PackagePath": "staticwebassets\\assets\\security-indicator.png"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/assets/shift-lock.png",
-      "PackagePath": "staticwebassets/assets/shift-lock.png"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\assets\\shift-lock.png",
+      "PackagePath": "staticwebassets\\assets\\shift-lock.png"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/assets/tire-pressure-light.png",
-      "PackagePath": "staticwebassets/assets/tire-pressure-light.png"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\assets\\tire-pressure-light.png",
+      "PackagePath": "staticwebassets\\assets\\tire-pressure-light.png"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/assets/traction-control-malfunction.png",
-      "PackagePath": "staticwebassets/assets/traction-control-malfunction.png"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\assets\\traction-control-malfunction.png",
+      "PackagePath": "staticwebassets\\assets\\traction-control-malfunction.png"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/assets/traction-control.png",
-      "PackagePath": "staticwebassets/assets/traction-control.png"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\assets\\traction-control.png",
+      "PackagePath": "staticwebassets\\assets\\traction-control.png"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/assets/transmission-temperature.png",
-      "PackagePath": "staticwebassets/assets/transmission-temperature.png"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\assets\\transmission-temperature.png",
+      "PackagePath": "staticwebassets\\assets\\transmission-temperature.png"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/assets/washer-fluid.png",
-      "PackagePath": "staticwebassets/assets/washer-fluid.png"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\assets\\washer-fluid.png",
+      "PackagePath": "staticwebassets\\assets\\washer-fluid.png"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/css/site.css",
-      "PackagePath": "staticwebassets/css/site.css"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/favicon.ico",
-      "PackagePath": "staticwebassets/favicon.ico"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/js/site.js",
-      "PackagePath": "staticwebassets/js/site.js"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/LICENSE",
-      "PackagePath": "staticwebassets/lib/bootstrap"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/jquery-validation/LICENSE.md",
-      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/jquery-validation/dist/additional-methods.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/jquery/LICENSE.txt",
-      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/jquery/dist/jquery.js",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/jquery/dist/jquery.min.js",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "/Users/ryeean/Projects/CruisinV2/CruisinV2/wwwroot/lib/jquery/dist/jquery.min.map",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+      "Id": "C:\\Users\\i7-13700KF & 3080\\CruisinV2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.CruisinV2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CruisinV2.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CruisinV2.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.CruisinV2.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CruisinV2.props",
       "PackagePath": "build\\CruisinV2.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.CruisinV2.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CruisinV2.props",
       "PackagePath": "buildMultiTargeting\\CruisinV2.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.CruisinV2.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CruisinV2.props",
       "PackagePath": "buildTransitive\\CruisinV2.props"
     }
   ],

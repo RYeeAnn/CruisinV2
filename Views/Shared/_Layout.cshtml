@@ -164,6 +164,7 @@
         currentQuestionIndex = 0;
         score = 0;
         document.getElementById("quiz-score").innerText = "";
+        document.getElementById("quiz-feedback").innerText = "";
         document.getElementById("quiz-content").style.opacity = 1;
         document.getElementById("next-question-btn").style.display = "none";
         document.getElementById("quiz-modal").style.display = "flex"; // Ensure the modal pops up
@@ -193,6 +194,11 @@
     function checkAnswer(isCorrect) {
         if (isCorrect) {
             score++;
+            document.getElementById("quiz-feedback").innerText = "🎉 Correct!"
+            document.getElementById("quiz-feedback").style.color = "green";
+        } else {
+            document.getElementById("quiz-feedback").innerText = "❌ Wrong!"
+            document.getElementById("quiz-feedback").style.color = "red";
         }
 
         document.getElementById("quiz-score").innerText = `Score: ${score}/${quizQuestions.length}`;
@@ -205,22 +211,17 @@
 
     function nextQuestion() {
         currentQuestionIndex++;
+        document.getElementById("quiz-feedback").innerText = ""
 
         if (currentQuestionIndex < quizQuestions.length) {
             loadQuestion();
             document.getElementById("next-question-btn").style.display = "none";
         } else {
-            // End of quiz
-            document.getElementById("quiz-content").style.opacity = 1;
-            document.getElementById("quiz-content").innerHTML = `
-                <p style="font-size: 1.5rem; text-align: center;">🎉 Quiz Complete!</p>
-                <p style="font-size: 1.2rem; text-align: center;">Your final score is <strong>${score}/${quizQuestions.length}</strong>.</p>
-            `;
-            document.getElementById("next-question-btn").style.display = "none";
+            document.getElementById("quiz-content").style.opacity = 0;
+            document.getElementById("quiz-content").innerHTML = `<p style="font-size: 1.5rem;">🎉 Quiz Complete! Your final score is ${score}/${quizQuestions.length}.</p>`;
         }
     }
 </script>
-
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
