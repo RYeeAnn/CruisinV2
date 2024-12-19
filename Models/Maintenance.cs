@@ -10,9 +10,13 @@ namespace CruisinV2.Models
 
         public string MaintenanceAnswer { get; set; }
 
+        public string? CreatedBy { get; set; }
+
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
         public Maintenance()
         {
-            
+
         }
     }
 }

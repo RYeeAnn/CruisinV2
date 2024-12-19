@@ -23,7 +23,10 @@ namespace CruisinV2.Controllers
         // GET: Maintenance
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Maintenance.ToListAsync());
+            var maintenanceList = await _context.Maintenance
+                .OrderByDescending(m => m.Id) // Sort by descending Id to display the newest entry at the top
+                .ToListAsync();
+            return View(maintenanceList);
         }
         
         // GET: Maintenance/ShowSearchForm
@@ -78,6 +81,9 @@ namespace CruisinV2.Controllers
         {
             if (ModelState.IsValid)
             {
+
+                maintenance.CreatedBy = User.Identity?.Name; // Save the username of the logged-in user
+                maintenance.CreatedAt = DateTime.UtcNow; // Save the current date/time
                 _context.Add(maintenance);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -95,9 +101,9 @@ namespace CruisinV2.Controllers
             }
 
             var maintenance = await _context.Maintenance.FindAsync(id);
-            if (maintenance == null)
+            if (maintenance == null || maintenance.CreatedBy != User.Identity?.Name)
             {
-                return NotFound();
+                return Unauthorized();
             }
             return View(maintenance);
         }
@@ -148,9 +154,9 @@ namespace CruisinV2.Controllers
 
             var maintenance = await _context.Maintenance
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (maintenance == null)
+            if (maintenance == null || maintenance.CreatedBy != User.Identity?.Name)
             {
-                return NotFound();
+                return Unauthorized();
             }
 
             return View(maintenance);

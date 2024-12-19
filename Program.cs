@@ -14,6 +14,9 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddAuthentication(); // Add authentication services
+builder.Services.AddAuthorization(); // Add authorization policies
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -33,7 +36,9 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
+app.UseAuthentication();  // Ensure authentication is enabled
+app.UseAuthorization();   // Ensure authorization is enabled
+
 
 app.MapControllerRoute(
     name: "default",
